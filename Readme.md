@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Геннадий](https://up.htmlacademy.ru/htmlcss-individual/2/user/2624349).
+* Студент: [Геннадий Тишаков](https://up.htmlacademy.ru/htmlcss-individual/2/user/2624349).
 * Наставник: [Кенан Агаев](https://htmlacademy.ru/profile/kenakula).
 ---
 
