@@ -42,5 +42,106 @@
             </ul>
         </nav>
       </header>
+
+<main class="main-inner">
+<header class="inner-header">
+<h1 class="inner-header-title">Гостиницы Седоны</h1>
+<ul class="breadcrumbs">
+<li class="breadcrumbs-item">
+<a class="breadcrumbs-link" href="index.html">
+<span>Главная</span>
+</a>
+</li>
+<li class="breadcrumbs-item">
+<a class="breadcrumbs-link" href="catalog.html" aria-current="page">Гостиницы</a>
+</li>
+</ul>
+</header>
+<section class="catalog-products">
+<h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+<form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+
+<fieldset class="catalog-filter-group">
+<legend class="catalog-filter-title">Инфраструктура:</legend>
+ <ul class="catalog-filter-list">
+   <li class="catalog-filter-item">
+<label class="control">
+  <input class="control-input" type="checkbox" name="Бассейн">
+
+  Бассейн
+</label>
+</li>
+
+<li class="catalog-filter-item">
+  <label class="control">
+    <input class="control-input" type="checkbox" name="Парковка">
+
+    Парковка
+  </label>
+  </li>
+
+  <li class="catalog-filter-item">
+    <label class="control">
+      <input class="control-input" type="checkbox" name="Wi-Fi">
+
+      Wi-Fi
+    </label>
+    </li>
+
+
+</fieldset>
+
+<fieldset class="catalog-filter-group">
+<legend class="catalog-filter-title">Тип жилья:</legend>
+<ul class="catalog-filter-list">
+  <li class="catalog-filter-item">
+<label class="control">
+ <input class="control-input" type="radio" name="Гостиница">
+
+ Гостиница
+</label>
+</li>
+
+<li class="catalog-filter-item">
+ <label class="control">
+   <input class="control-input" type="radio" name="Мотель">
+
+   Мотель
+ </label>
+ </li>
+
+ <li class="catalog-filter-item">
+   <label class="control">
+     <input class="control-input" type="radio" name="Апартаменты">
+
+     Апартаменты
+   </label>
+   </li>
+</fieldset>
+<fieldset class="hotel-filter-group">
+  <legend class="hotel">Стоимость, ₽:</legend>
+  <label class="hotel price list">
+    <input class="hotel price list-input" type="number" name="start-price list" placeholder="от">
+  </label>
+  <label class="hotel price list">
+    <input class="hotel price list-input" type="number" name="end-price list" placeholder="до">
+  </label>
+  <div class="hotel price list-slider">
+    <label class="hotel price list">
+      <input type="range" min="0" max="9000" step="any" value="0">
+    </label>
+    <label class="hotel price list">
+      <input type="range" min="0" max="9000" step="1" value="9000">
+
+    </label>
+  </div>
+</fieldset>
+<button class="button" type="submit">Применить</button>
+<button class="button button-transparent" type="reset">Сбросить</button>
+</form>
+</section>
+</main>
+
+
 </body>
 </html>
